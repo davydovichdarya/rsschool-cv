@@ -17,3 +17,30 @@ Among my strengths, I can single out perseverance, patience and attentiveness. I
 
 Unfortunately, I have no experience in Front-end development. But I strive to learn new information and apply it in practice.
 
+## Skills
+- HTML5
+- CSS
+- JavaScript (Basics)
+- Git, GitHub
+- Adobe Photoshop
+- Figma
+
+## Code example
+```
+function solution(str, ending){
+ if (str.slice(str.length - ending.length) === ending ) {
+   return true;
+ } else {
+   return false;
+ };
+};
+```
+
+## Education
+- **University:** Belarusian State University, Management in International Tourism
+- **Courses**
+  - [HTML для начинающих](https://ru.code-basics.com/languages/html)
+  - [CSS для начинающих](https://ru.code-basics.com/languages/css)
+  - [JavaScript для начинающих](https://ru.code-basics.com/languages/javascript)
+  - [Modern JavaScript Tutorial](https://learn.javascript.ru/) (in progress)
+  - [Web developer - 2022](https://www.udemy.com/course/webdeveloper/) (in progress)
