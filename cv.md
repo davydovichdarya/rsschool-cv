@@ -1,6 +1,6 @@
 # Darya Davydovich 
 
-![profile photo](https://psv4.userapi.com/c240331/u348616390/docs/d18/c4467ea0b978/photo.png?extra=10uyKLHfUqPs_JSe6H56yeIG3Ev_442bmc9HBaMLUXdxHlzx5S9IT9ZFw_Kus1U04yZLHH7WNDQEXHj1PEKDd5Pdgj543GUoz8TI-QPrPMiJCbmhXNv8-ePdbtg9tSkbpBH2CJpKD_eqF-9O2HhKI92v)
+![profile photo](/img/photo.png)
 
 ## Contact information
 - **Location:** Minsk, Belarus
@@ -50,4 +50,4 @@ function solution(str, ending){
 ## English
 **B1** according to the online test at [EPAM training center](https://training.by/#!/Home?lang=ru).
 
-![English language test results](https://psv4.userapi.com/c505536/u348616390/docs/d36/f7844a51d8f3/english.png?extra=gvZ1CTEHQd8MMyCeyLHThT6ULaHVKNaQiPA6jU_WaZB3lvTHITA-JafXvozNEWzPXNL-4ua2JOcmsnuC9C0fSI8CcA6IEccB4oKb9_AqGx-0HkrSubTca1OOJbQZS3Oz1xFIuYskxJBkpPDompXzSfPd)
+![English language test results](/img/english.png)
