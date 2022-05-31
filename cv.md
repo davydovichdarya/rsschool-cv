@@ -1,5 +1,7 @@
 # Darya Davydovich 
 
+![profile photo](https://psv4.userapi.com/c240331/u348616390/docs/d18/c4467ea0b978/photo.png?extra=10uyKLHfUqPs_JSe6H56yeIG3Ev_442bmc9HBaMLUXdxHlzx5S9IT9ZFw_Kus1U04yZLHH7WNDQEXHj1PEKDd5Pdgj543GUoz8TI-QPrPMiJCbmhXNv8-ePdbtg9tSkbpBH2CJpKD_eqF-9O2HhKI92v)
+
 ## Contact information
 - **Location:** Minsk, Belarus
 - **Phone:** +375 33 644-47-76
