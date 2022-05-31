@@ -44,3 +44,8 @@ function solution(str, ending){
   - [JavaScript для начинающих](https://ru.code-basics.com/languages/javascript)
   - [Modern JavaScript Tutorial](https://learn.javascript.ru/) (in progress)
   - [Web developer - 2022](https://www.udemy.com/course/webdeveloper/) (in progress)
+
+## English
+**B1** according to the online test at [EPAM training center](https://training.by/#!/Home?lang=ru).
+
+![English language test results](https://psv4.userapi.com/c505536/u348616390/docs/d36/f7844a51d8f3/english.png?extra=gvZ1CTEHQd8MMyCeyLHThT6ULaHVKNaQiPA6jU_WaZB3lvTHITA-JafXvozNEWzPXNL-4ua2JOcmsnuC9C0fSI8CcA6IEccB4oKb9_AqGx-0HkrSubTca1OOJbQZS3Oz1xFIuYskxJBkpPDompXzSfPd)
