@@ -112,6 +112,8 @@
 
   .profile-photo {
     margin-left: 15px;
+    width: 50%;
+    height: 50%;
   }
   
   .summary {
