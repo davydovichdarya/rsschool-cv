@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -33,6 +32,8 @@
        flex-direction: column;
        justify-content: space-between;
        min-height: 100vh;
+       margin: 0;
+       padding: 0;
 
    }
 
@@ -125,8 +126,8 @@
 
 .section#contacts {
   margin-top: 85px;
-  min-height: 240px;
-  min-width: 800px;
+  min-height: 230px;
+  min-width: 100%;
   background-color: hsla(243, 65%, 82%, 0.304);
   border-radius: 30px;
 }
@@ -142,7 +143,7 @@ h2 {
   text-align: center;
 }
 
-.contact-information {
+.contacts-information {
   color: #fff;
   font-family: "PoppinsLight", sans-serif;
   font-size: 20px;
@@ -154,11 +155,125 @@ h2 {
   list-style: none;
 }
 
+.contacts-icons a {
+padding: 0 10px;
+}
+
 .contacts-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 45px 40px;
+  padding: 45px 30px;
 }
 
+.skills-wrapper {
+  padding-left: 25px;
+  padding-top: 15px;
+  color: #fff;
+  font-family: "PoppinsLight", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.skills-list {
+  list-style: none;
+}
+
+.section#skills {
+  margin-top: 85px;
+  min-height: 215px;
+  min-width: 100%;
+  background-color: hsla(243, 65%, 82%, 0.304);
+  border-radius: 30px;
+}
+
+.section#code-example {
+  margin-top: 85px;
+  min-height: 265px;
+  min-width: 100%;
+  background-color: hsla(243, 65%, 82%, 0.304);
+  border-radius: 30px;
+}
+
+.code-text {
+  padding-top: 15px;
+  color: #fff;
+  font-family: "PoppinsLight", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.section#education{
+  margin-top: 85px;
+  min-height: 265px;
+  min-width: 100%;
+  background-color: hsla(243, 65%, 82%, 0.304);
+  border-radius: 30px;
+}
+
+.education-list-item {
+  list-style: none;
+  padding-top: 15px;
+  padding-left: 15px;
+  color: #fff;
+  font-family: "PoppinsLight", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.education-list-item a {
+  padding-left: 35px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "PoppinsLight", sans-serif;
+}
+
+.section#english {
+  margin-top: 85px;
+  margin-bottom: 35px;
+  min-width: 100%;
+  background-color: hsla(243, 65%, 82%, 0.304);
+  border-radius: 30px;
+}
+
+
+.english-text {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  font-family: "PoppinsLight", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.english-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+display: flex;
+justify-content: center;
+align-items: center;
+  background-color:#6C63FF;
+}
+
+.logo {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.footer-year {
+  color: #fff;
+  font-family: "PoppinsLight", sans-serif;
+  font-size: 20px;
+  padding: 0 15px;
+}
