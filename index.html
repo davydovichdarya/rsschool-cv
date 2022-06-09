@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="/assets/ico/icon.ico">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 
@@ -16,7 +16,7 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                    <li class="nav-item"><a href="#profile" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                     <li><a href="#home" class="nav-link"><img src="/assets/icons/menu.png" alt="home"></a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
@@ -49,7 +49,6 @@
             </section>
 
             <section class="section" id="contacts">
-                <div class="container">
                     <h2>Contact information</h2>
                     <div class="contacts-wrapper">
                         <div class="social-cites-wrapper">
@@ -77,12 +76,9 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-
             </section>
 
             <section class="section" id="skills">
-                <div class="container">
                     <h2>Skills</h2>
                     <div class="skills-wrapper">
                         <div class="skills-list-one">
@@ -100,27 +96,29 @@
                             </ul>
                         </div>
                     </div>
-                </div>
-
             </section>
 
             <section class="section" id="code-example">
-                <div class="container">
                     <h2>Code example</h2>
                     <pre>
-                            <code class="code-text">
-                                <span>
-                                    function solution(str, ending){
-                                        if (str.slice(str.length - ending.length) === ending ) {
-                                          return true;
-                                        } else {
-                                          return false;
-                                        };
+                        <code class="code-text">
+                            <span>
+                                function solution(str, ending){
+                                    if (str.slice(str.length - ending.length) === ending ) {
+                                      return true;
+                                    } else {
+                                      return false;
                                     };
-                                </span>
-                            </code>
-                        </pre>
-                </div>
+                                };
+                            </span>
+                        </code>
+                    </pre>
+            </section>
+
+            <section class="section" id="projects">
+                <h2>Projects</h2>
+                <p class="project-text">It is my first project!</p>
+                <p class="project-link"><a href="https://davydovichdarya.github.io/rsschool-cv/">https://davydovichdarya.github.io/rsschool-cv/</a></p>
             </section>
 
             <section class="section" id="education">
@@ -146,13 +144,11 @@
                 <p class="english-text"><b>A2 </b>according to the online test at <a
                         href="https://training.by/#!/Home?lang=ru">EPAM training center</a></p>
             </section>
-
         </div>
     </main>
 
     <footer class="footer">
         <a href="https://github.com/davydovichdarya"><img src="/assets/icons/contacts/github.png" alt="github"></a>
-
         <p class="footer-year">Made by Darya Davydovich, 2022</p>
         <a href="https://rs.school/js/"><img class="logo" src="/assets/icons/rs_school_js.svg" alt="RS School"></a>
     </footer>

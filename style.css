@@ -39,6 +39,7 @@
 
    .container {
         max-width: 1440px;
+        width: 100%;
         margin: 0 auto;
    }
 
@@ -72,8 +73,6 @@
     align-items: center;
   }
 
-
-
   .nav-item a {
     text-decoration: none; 
     color:#fff;
@@ -85,9 +84,9 @@
   }
 
   .first-page {
+    width: 100%;
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
@@ -97,7 +96,6 @@
   }
 
  .profile-text {
-  margin-right: 140px;
   font-family: "Port Lligat Sans", sans-serif;
   background: linear-gradient(269.97deg, #6C63FF 13.12%, #FFFFFF 99.93%);
   -webkit-background-clip: text;
@@ -209,6 +207,30 @@ padding: 0 10px;
   font-family: "PoppinsLight", sans-serif;
   font-size: 20px;
   line-height: 30px;
+}
+
+.project-text {
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #fff;
+    font-family: "PoppinsLight", sans-serif;
+    font-size: 30px;
+}
+
+.project-link a {
+  padding-left: 15px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "PoppinsLight", sans-serif;
+  font-size: 20px;
+  }
+
+.section#projects {
+  margin-top: 85px;
+  min-height: 265px;
+  min-width: 100%;
+  background-color: hsla(243, 65%, 82%, 0.304);
+  border-radius: 30px;
 }
 
 .section#education{
