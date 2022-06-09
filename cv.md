@@ -1,6 +1,6 @@
 # Darya Davydovich 
 
-![profile photo](/img/photo.png)
+![profile photo](../rsschool-cv/assets/img/profile-photo.png)
 
 ## Contact information
 - **Location:** Minsk, Belarus
