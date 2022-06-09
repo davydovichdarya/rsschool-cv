@@ -227,7 +227,7 @@ padding: 0 10px;
 
 .section#projects {
   margin-top: 85px;
-  min-height: 265px;
+  min-height: 225px;
   min-width: 100%;
   background-color: hsla(243, 65%, 82%, 0.304);
   border-radius: 30px;
@@ -235,7 +235,7 @@ padding: 0 10px;
 
 .section#education{
   margin-top: 85px;
-  min-height: 265px;
+  min-height: 320px;
   min-width: 100%;
   background-color: hsla(243, 65%, 82%, 0.304);
   border-radius: 30px;
