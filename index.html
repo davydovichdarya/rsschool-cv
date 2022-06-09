@@ -1,69 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/ico/icon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
 </head>
+
 <body>
-    <h1>Darya Davydovich</h1> 
-    <img src="/img/photo.png" alt="profile photo">
-    <h2>Contact information</h2>
-    <ul>
-        <li><b>Location:</b> Minsk, Belarus</li>
-        <li><b>Phone:</b> +375 33 644-47-76</li>
-        <li><b>Email:</b> davydovichdarya@gmail.com</li>
-        <li><b>Telegram:</b> @davydovichda</li>
-        <li><b>GitHub:</b> davydovichdarya</li>
-    </ul>
-    <h2>About me</h2>
-    <p>I am 3-year student of BSU, Faculty of International Relations. In my school years, I already started to be interested in programming, after that I took courses in marketing and web design, where I was attracted by website development. I taught myself the basics of HTML, CSS and JS.</p>
-    <p>My priority is to do everything with high quality, so I signed up for RS School courses in order to master the new profession of Front-end developer in a structured and high-quality way.</p>
-    <p>At the moment, my goal is to advance to the Junior Front-end developer. In my work, I first of all appreciate the opportunity to grow up the career ladder. Among my strengths, I can single out perseverance, patience and attentiveness. I also learn new material easily, so I'm always open to new suggestions and opportunities to learn new things.</p>
-    <p>Unfortunately, I have no experience in Front-end development. But I strive to learn new information and apply it in practice.</p>
-    
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML5</li>
-        <li>CSS</li>
-        <li>JavaScript(Basics)</li>
-        <li>Git, GitHub</li>
-        <li>Adobe Photoshop</li>
-        <li>Figma</li>
-    </ul>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#home" class="nav-link"><img src="./assets/icons/menu.png" alt="home"></a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <h2>Code example</h2>
-    <code>
+  <main class="main">
+    <div class="container">
+      <section class="section" id="profile">
+        <div class="first-page">
+          <img class="profile-photo" src="./assets/img/profile-photo.png" alt="profile photo">
+          <div>
+            <div class="profile-text">
+              <h1>Darya Davydovich</h1>
+              <p>Junior Front-end developer</p>
+            </div>
+            <div class="summary">
+              <p>I am 3-year student of BSU, Faculty of International Relations. My priority is to do
+                everything with high quality, so I signed up for RS School courses in order to master
+                the new profession of Front-end developer in a structured and high-quality way.</p>
+              <p>In my work, I first of all appreciate the opportunity to grow up the career ladder. Among
+                my strengths, I can single out perseverance, patience and attentiveness. I also learn
+                new material easily, so I'm always open to new suggestions and opportunities to learn
+                new things.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contacts">
+        <h2>Contact information</h2>
+        <div class="contacts-wrapper">
+          <div class="social-cites-wrapper">
+            <div class="contacts-icons">
+              <a href="https://www.facebook.com/darya.davydovich.3"><img src="./assets/icons/contacts/Facebook.png"
+                  alt="Facebook"></a>
+              <a href="https://github.com/davydovichdarya"><img src="./assets/icons/contacts/github.png"
+                  alt="github"></a>
+              <a href="https://instagram.com/thdaria?igshid=YmMyMTA2M2Y="><img
+                  src="./assets/icons/contacts/instagram.png" alt=""></a>
+              <a href="https://t.me/davydovichda"><img src="./assets/icons/contacts/tg.png" alt="Telegram"></a>
+              <a href="https://vk.com/id348616390"><img src="./assets/icons/contacts/vk.png" alt="vk.com"></a>
+            </div>
+          </div>
+
+          <div class="contacts-information">
+            <ul>
+              <li class="contacts-list"><b>Location:</b> Minsk, Belarus</li>
+              <li class="contacts-list"><b>Phone:</b> +375 33 644-47-76</li>
+              <li class="contacts-list"><b>Email:</b> davydovichdarya@gmail.com</li>
+              <li class="contacts-list"><b>Telegram:</b> @davydovichda</li>
+              <li class="contacts-list"><b>GitHub:</b> davydovichdarya</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-wrapper">
+          <div class="skills-list-one">
+            <ul>
+              <li class="skills-list">HTML5</li>
+              <li class="skills-list">CSS</li>
+              <li class="skills-list">JavaScript(Basics)</li>
+            </ul>
+          </div>
+          <div class="skills-list-two">
+            <ul>
+              <li class="skills-list">Git, GitHub</li>
+              <li class="skills-list">Adobe Photoshop</li>
+              <li class="skills-list">Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="code-example">
+        <h2>Code example</h2>
         <pre>
-            <span>
-                function solution(str, ending){
-                    if (str.slice(str.length - ending.length) === ending ) {
-                      return true;
-                    } else {
-                      return false;
-                    };
-                   };
-            </span>
-        </pre>
-    </code>
+                        <code class="code-text">
+                            <span>
+                                function solution(str, ending){
+                                    if (str.slice(str.length - ending.length) === ending ) {
+                                      return true;
+                                    } else {
+                                      return false;
+                                    };
+                                };
+                            </span>
+                        </code>
+                    </pre>
+      </section>
 
-    <h2>Education</h2>
-<ul>
-    <li><b>University:</b> Belarusian State University, Management in International Tourism</li>
-    <li><b>Courses</b></li>
-    <ul>
-        <li><a href="https://ru.code-basics.com/languages/html">HTML для начинающих</a></li>
-        <li><a href="https://ru.code-basics.com/languages/css">CSS для начинающих</a></li>
-        <li><a href="https://ru.code-basics.com/languages/javascript">JavaScript для начинающих</a></li>
-        <li><a href="https://learn.javascript.ru/">Modern JavaScript Tutorial</a></li>
-        <li><a href="https://www.udemy.com/course/webdeveloper/">Web developer - 2022</a></li>
-    </ul>
-</ul>
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+        <p class="project-text">It is my first project!</p>
+        <p class="project-link"><a
+            href="https://davydovichdarya.github.io/rsschool-cv/">https://davydovichdarya.github.io/rsschool-cv/</a></p>
+      </section>
 
-<h2>English</h2>
-<p><b>B1</b>according to the online test at <a href="https://training.by/#!/Home?lang=ru">EPAM training center</a></p>
-<img src="/img/english.png" alt="English language test results">
+      <section class="section" id="education">
+        <h2>Education</h2>
+        <div class="education-list">
+          <ul class="education-list-item">
+            <li><b>University:</b> Belarusian State University, Management in International Tourism</li>
+            <li><b>Courses:</b>
+              <ul class="education-list-item">
+                <li><a href="https://ru.code-basics.com/languages/html">HTML для начинающих</a></li>
+                <li><a href="https://ru.code-basics.com/languages/css">CSS для начинающих</a></li>
+                <li><a href="https://ru.code-basics.com/languages/javascript">JavaScript для начинающих</a></li>
+                <li><a href="https://learn.javascript.ru/">Modern JavaScript Tutorial</a></li>
+                <li><a href="https://www.udemy.com/course/webdeveloper/">Web developer - 2022</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="english">
+        <h2>English</h2>
+        <p class="english-text"><b>A2 </b>according to the online test at <a
+            href="https://training.by/#!/Home?lang=ru">EPAM training center</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <a href="https://github.com/davydovichdarya"><img src="./assets/icons/contacts/github.png" alt="github"></a>
+    <p class="footer-year">Made by Darya Davydovich, 2022</p>
+    <a href="https://rs.school/js/"><img class="logo" src="./assets/icons/rs_school_js.svg" alt="RS School"></a>
+  </footer>
 </body>
+
 </html>
